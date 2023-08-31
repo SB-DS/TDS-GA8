@@ -3,7 +3,10 @@ import streamlit as st
 def find_largest_number(num1, num2, num3):
     return max(num1, num2, num3)
 
-st.title("Find the largest among the 3 given numbers.")
+st.title("This app is build by Sushobhan Bhargav (22F1000948), for TDS GA-8 submition.\n")
+
+st.title("Find the largest among the 3 numbers.")
+st.title("Choose Your numbers below:")
 
 # Input
 num1 = st.number_input("Enter the first number: ")
